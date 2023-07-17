@@ -53,7 +53,7 @@ const Customizer = () => {
     try {
       setGeneratingImg(true);
 
-      const response = await fetch('https://snazzy-biscochitos-0b644e.netlify.app/api/v1/dalle', {
+      const response = await fetch('https://canvas3.onrender.com/api/v1/dalle', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
